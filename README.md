@@ -39,4 +39,7 @@ Steps to Run:
 1. Download as Zip
 2. Open in Visual Studio (this was built using VS 2019 Community Edition)
 3. Restore nuGet packages
-4. Compile & Run as PROD (Run as Local/QA/UAT to test other configurations)
+4. Set HelloPlusWeb as Startup project
+5. Compile & Run as PROD (Run as Local/QA/UAT to test other configurations)
+
+* Run the HelloPlusTests via Test Explorer
