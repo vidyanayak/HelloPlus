@@ -1,0 +1,41 @@
+﻿@model HelloPlusWeb.Models.BaseViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowe - Hello+</title>
+  
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/scripts")
+   
+    <script type="text/javascript">
+        var URL_API_ROOT = '@ViewBag.URL_API_ROOT';
+        var CURRENT_LANGUAGE = '@ViewBag.CURRENT_LANGUAGE';
+    </script>
+
+</head>
+<body>
+    <div class="container">
+       
+        <div class="row">
+            <div class="col-md-12 col-xs-12 text-center">
+                <div id="lblWelcome" class="header">@Model.LblWelcome</div>
+            </div>
+            <div class="col-md-12 col-xs-12 pull-right text-right ">
+                <div><span id="displayDate" class="smallText"></span></div>
+            </div>
+        </div>
+         <div id="mainBody" class="rightContent">
+             @RenderBody()
+         </div>
+        @*<div class="row">
+            
+            <div class="col-md-3 col-xs-12 pull-right text-right">
+                <div><span id="displayDate" class="smallText"></span></div>
+            </div>
+        </div>*@
+    </div>
+   
+</body>
+</html>

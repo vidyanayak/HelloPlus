@@ -1,0 +1,54 @@
+﻿
+.container {
+    align-self:center;
+}
+
+body {
+    font-family: Roboto,Arial,sans-serif;
+    font-size:14pt;
+    background-color:white;
+    height:calc(100vh - 20px);
+    width:90%;
+    align-self:center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.rightContent {
+    margin: 5%;
+    padding:5%;
+    position:center;
+    align-self:center;
+    background-color: #fdb913;
+    min-height: 200px;
+    height:calc(80vh - 50px);
+    width:100%;
+}
+
+.header {
+   margin-top:5px;
+   align-self:center;
+   align-content:center;
+   color: #002d62;
+   font-size: 26pt;
+   font-weight:bold;
+}
+
+.button {
+    background-color: #fdb913;
+   
+}
+
+.smallText {
+  color: #002d62;
+   font-size: 10pt;
+   font-weight:normal;
+}
+
+.message {
+   font-size: 20pt;
+   font-weight:bold;
+  text-align:center;
+  vertical-align:middle;
+  
+}
