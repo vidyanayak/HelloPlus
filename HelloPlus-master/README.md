@@ -1,7 +1,6 @@
 # HelloPlus
 Sample Hello World App with DI/IoC etc
 
-
 HelloPlus is a basic 'Hello World' .Net application that demonstrates a few key concepts in modern programming. 
 This includes :
 
@@ -35,4 +34,3 @@ Following are configurable:
 IIS Express:
 	API: http://localhost:64312/swagger
 	Web: http://localhost:65367/home/index
-Note: Due to some issue with my visual studio, the project settings/nuget packages may cause runtime issues. 
