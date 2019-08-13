@@ -34,3 +34,9 @@ Following are configurable:
 IIS Express:
 	API: http://localhost:64312/swagger
 	Web: http://localhost:65367/home/index
+
+Steps to Run:
+1. Download as Zip
+2. Open in Visual Studio (this was built using VS 2019 Community Edition)
+3. Restore nuGet packages
+4. Compile & Run as PROD (Run as Local/QA/UAT to test other configurations)
